@@ -93,6 +93,50 @@
       }
 
     }
+    .latestblog{
+
+      a{
+        text-decoration: none;
+        color: black;
+        font-size: 19px;
+        font-weight: bold;
+        font-family: inherit;
+      }
+      ul{
+        padding: 0px;
+        margin-bottom: 0%;
+      }
+      li {
+        margin-right: 40px;
+        display: inline-block;
+        color: #a7a7a7;
+        font-size: 15px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 400;
+        list-style: none;
+        a{
+        color: #a7a7a7;
+        font-size: 15px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 400;
+        }
+      }
+      p{
+        color: #666;
+        font-size: 13px;
+        font-weight: 400;
+        font-family: 'Poppins', sans-serif;
+        padding-top: 1%;
+        margin-bottom: 0%;
+      }
+      .ReadMore{
+        color: #07acc1;
+        font-size: 13px;
+        font-family: 'Poppins', sans-serif;
+      }
+
+      }
+
     
 }
 #ustthreeDivs{
@@ -101,4 +145,8 @@
 
     opacity: 0.8;
   }
-}
+
+  
+  
+  }
+
