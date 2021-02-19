@@ -1,0 +1,248 @@
+#HeadDiv {
+  background-image: url("slide-img2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100px;
+  margin-top: -60px;
+}
+
+#NAV a {
+  color: white;
+}
+
+.MyWishList p {
+  font-size: 22px;
+  font-weight: 600;
+  color: #222;
+}
+
+.TableDiv td {
+  border: 1px solid #eaeaea;
+}
+
+.TableDiv .titleTd {
+  width: 8%;
+  padding: 1%;
+}
+
+.TableDiv .titleTd span {
+  color: #333;
+  font-size: 12px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+}
+
+.secondTd {
+  width: 60%;
+  padding: 1%;
+}
+
+.secondTd a {
+  color: #333;
+  font-size: 15px;
+}
+
+.secondTd input {
+  width: 100%;
+  height: 50px;
+  border: 2px solid #eaeaea;
+}
+
+.thirdTd {
+  padding: 2%;
+}
+
+.thirdTd input {
+  width: 90%;
+  border: 2px solid #eaeaea;
+}
+
+.fourthTd {
+  padding: 1%;
+}
+
+.fourthTd span {
+  font-size: 16px;
+  color: #00acc1;
+  font-weight: 600;
+  font-family: 'Poppins', sans-serif;
+}
+
+.fifthTd {
+  width: 5%;
+  padding: 1%;
+}
+
+.fifthTd a {
+  color: #00acc1;
+}
+
+.sixTd {
+  width: 5%;
+  padding: 2%;
+}
+
+.sixTd i {
+  font-size: 14px;
+  color: #949494;
+}
+
+.imgTD {
+  width: 10%;
+}
+
+.imgTD img {
+  width: 80%;
+}
+
+.secTable td {
+  border: 1px solid  #eaeaea;
+}
+
+.secTable .Titletd {
+  padding: 3%;
+}
+
+.secTable .Titletd span {
+  font-size: 18px;
+  font-weight: 600;
+  color: #222;
+}
+
+.secTable ul {
+  list-style: none;
+  padding-left: 2%;
+}
+
+.secTable li {
+  border-bottom: 1px solid  #eaeaea;
+  padding: 3%;
+}
+
+.secTable li a {
+  color: #222;
+  font-size: 15px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.ThirdTable button:hover {
+  background-color: #00acc1;
+}
+
+.ThirdTable button:hover span {
+  color: white;
+}
+
+.ThirdTable td {
+  border: 1px solid  #eaeaea;
+}
+
+.ThirdTable .Titletd {
+  padding: 3%;
+}
+
+.ThirdTable .Titletd span {
+  font-size: 18px;
+  font-weight: 600;
+  color: #222;
+}
+
+.ThirdTable ul {
+  list-style: none;
+  padding-left: 2%;
+}
+
+.ThirdTable li {
+  padding: 3%;
+}
+
+.ThirdTable li span {
+  font-size: 13px;
+  font-weight: normal;
+  color: #222;
+  font-family: 'Poppins', sans-serif;
+}
+
+.ThirdTable li a {
+  color: #222;
+  font-size: 15px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.mainDiv .btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding: 1%;
+}
+
+.mainDiv .btn button {
+  margin: 1%;
+}
+
+.mainDiv .btn button:hover {
+  background-color: #00acc1;
+}
+
+.mainDiv .btn button:hover span {
+  color: white;
+}
+
+#Footer {
+  background-color: black;
+  min-height: 500px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+#Footer h4 {
+  padding: 0 0 10px;
+  padding-top: 1%;
+  margin: 0;
+  color: #00acc1;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+#Footer a {
+  color: #999;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  font-size: 13px;
+  font-weight: normal;
+  text-decoration: none;
+}
+
+#Footer ul {
+  list-style: none;
+  padding-left: 0%;
+}
+
+#Footer li {
+  padding-top: 4%;
+}
+
+#Footer .sonLi {
+  padding-top: 6%;
+}
+
+#Footer .footerDivs {
+  padding-top: 2%;
+}
+
+#Footer a:hover {
+  color: #00acc1;
+}
+
+#Footer #iconDIv a {
+  font-size: 40px;
+  padding-right: 5px;
+}
+
+#Footer #iconDIv i:hover {
+  color: #00acc1;
+}
+/*# sourceMappingURL=wishList.css.map */
