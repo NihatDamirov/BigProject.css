@@ -1,0 +1,142 @@
+#HeadDiv {
+  background-image: url("slide-img2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100px;
+  margin-top: -60px;
+}
+
+#NAV a {
+  color: white;
+}
+
+.FirstTextDiv {
+  min-height: 50px;
+  padding: 1%;
+}
+
+.FirstTextDiv span {
+  color: #666;
+  font-size: 13px;
+  font-weight: normal;
+}
+
+.MainDiv .TabContentS {
+  display: none;
+}
+
+.MainDiv #TAGS input {
+  width: 40%;
+  height: 35px;
+  border: 2px solid #dddddd;
+}
+
+.MainDiv #TAGS button {
+  border: 2px solid #dddddd;
+  height: 35px;
+  background-color: white;
+}
+
+.MainDiv .RightDiv #bigP {
+  font-size: 32px;
+  font-weight: 500;
+  border-bottom: 1px solid #ebebeb;
+}
+
+.MainDiv .RightDiv .yellow {
+  background-color: yellow;
+}
+
+.MainDiv .RightDiv .kicikspan {
+  color: #999;
+  font-size: 13px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.MainDiv .RightDiv .bes99 {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.MainDiv .RightDiv .dord99 {
+  font-size: 20px;
+  text-decoration: line-through;
+  color: #999;
+}
+
+.MainDiv .RightDiv .iacP {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  color: #222;
+  font-weight: 400;
+  border-bottom: transparent;
+}
+
+.MainDiv .RightDiv .AvailableOptions {
+  font-weight: bold;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  color: #222;
+}
+
+.MainDiv .secondRightDiv span {
+  color: #999;
+  font-size: 15px;
+  font-family: 'Poppins', sans-serif;
+}
+
+#Footer {
+  background-color: black;
+  min-height: 500px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+#Footer h4 {
+  padding: 0 0 10px;
+  padding-top: 1%;
+  margin: 0;
+  color: #00acc1;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+#Footer a {
+  color: #999;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  font-size: 13px;
+  font-weight: normal;
+  text-decoration: none;
+}
+
+#Footer ul {
+  list-style: none;
+  padding-left: 0%;
+}
+
+#Footer li {
+  padding-top: 4%;
+}
+
+#Footer .sonLi {
+  padding-top: 6%;
+}
+
+#Footer .footerDivs {
+  padding-top: 2%;
+}
+
+#Footer a:hover {
+  color: #00acc1;
+}
+
+#Footer #iconDIv a {
+  font-size: 40px;
+  padding-right: 5px;
+}
+
+#Footer #iconDIv i:hover {
+  color: #00acc1;
+}
+/*# sourceMappingURL=SinglePage.css.map */
