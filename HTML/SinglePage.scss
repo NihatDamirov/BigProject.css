@@ -22,6 +22,16 @@
 }
 
 .MainDiv{
+
+    .tabs{
+        span{
+            font-weight: bold;
+        }
+        button{
+            border: 1px solid #dddddd;
+            background-color: white;
+        }
+    }
     .TabContentS{
         display: none;
     }
@@ -36,8 +46,30 @@
             height: 35px;
             background-color: white;
         }
+        p{
+            padding-top: 1%;
+        }
     }
-    
+    #REVIEW{
+        .firstTDs{
+            border: 1px solid #eaeaea;
+            width: 100%;
+            padding: 8px;
+            
+        }
+        .form{
+            input{
+                // margin-top: 20px;
+                border: 1px solid #eaeaea;
+            }
+            .btn:hover{
+                background-color:  #00acc1;
+                color: white;
+            }
+        }
+        
+    }
+
 
     .RightDiv{
         #bigP{

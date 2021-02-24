@@ -117,13 +117,15 @@
 
             </div>
             <div class="col-lg-7 col-md-7 col-sm-7 RightDiv" style="min-height: max-content;">
-                <p id="bigP"   > Lorem ipsum dolor sit amet .</p>
-                <i class="fas fa-star text-warning" ></i><i class="fas fa-star text-warning"></i><i class="fas fa-star text-warning"></i><i class="fas fa-star text-warning"></i><i class="far fa-star"></i>
+                <p id="bigP"> Lorem ipsum dolor sit amet .</p>
+                <i class="fas fa-star text-warning"></i><i class="fas fa-star text-warning"></i><i
+                    class="fas fa-star text-warning"></i><i class="fas fa-star text-warning"></i><i
+                    class="far fa-star"></i>
                 <span class="kicikspan">4 review(s) |</span>
                 <span class="kicikspan"> write a review</span><br>
                 <span class="bes99">$599.99</span>
                 <span class="dord99">$499.99</span><br>
-                <p class="iacP">Item Code: #12345678</p>
+                <p class="iacP">Item Code: #12345678< /p>
                 <p class="iacP">Availability: In stock</p>
                 <p style="border-bottom: 1px solid #ebebeb;" class="iacP">Condition: New</p>
                 <p style="border-bottom: 1px solid #ebebeb;" class="iacP">Lorem ipsum dolor sit, amet consectetur
@@ -132,32 +134,37 @@
                     voluptate est. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab reprehenderit, corrupti
                     consequatur dolorem atque eos officiis dolores voluptatum in a, soluta rem ullam, nam mollitia eum
                     placeat doloribus. Labore, consectetur.</p>
-                <p class="AvailableOptions">Available Options:</p>    
+                <p class="AvailableOptions">Available Options:</p>
                 <p>Color:</p><br>
                 <p style="border-bottom: 1px solid #ebebeb;"></p>
+                <i class="fas fa-print"></i><span style="color: #666;">Print</span>       <i class="far fa-envelope-open"></i> <span style="color: #666;">Send to a friend</span>
             </div>
         </div>
 
         <div class="row">
-           
-            
+
+
         </div>
         <div class="tabs row" style="padding-top: 2%;">
-            <div class="col-lg-12">
-                <button onclick="OpenText(event,'text1')" class="btn btn-outline-dark TABS">PRODUCTION
-                    DESCRIOTION</button>
-                <button onclick="OpenText(event,'text2')" class="btn btn-outline-dark TABS TabBTN">TAGS</button>
-                <button onclick="OpenText(event,'text3')" class="btn btn-outline-dark TABS TabBTN">REVIEWS</button>
-                <button onclick="OpenText(event,'text4')" class="btn btn-outline-dark TABS TabBTN">CUSTOM
-                    TAB</button>
-                <button onclick="OpenText(event,'text5')" class="btn btn-outline-dark TABS TabBTN">CUSTOM
-                    TAB</button>
+            <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                <div style="width: 100%;">
+                    
+                    <button onclick="OpenText(event,'text1')" class="btn  rounded-0 TABS"><span> PRODUCTION
+                        DESCRIOTION</span></button>
+                    <button onclick="OpenText(event,'text2')" class="btn  rounded-0 TABS TabBTN"><span>TAGS </span> </button>
+                    <button onclick="OpenText(event,'text3')" class="btn  rounded-0 TABS TabBTN"><span> REVIEWS</span></button>
+                    <button onclick="OpenText(event,'text4')" class="btn  rounded-0 TABS TabBTN"><span>CUSTOM
+                        TAB</span> </button>
+                    <button onclick="OpenText(event,'text5')" class="btn  rounded-0 TABS TabBTN"><span> CUSTOM
+                        TAB</span></button>
+                </div>
             </div>
         </div>
 
         <div class="row">
             <div id="text1" class="col-lg-12 col-md-12 col-sm-12 TabContent" style="min-height: max-content;">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, facere ipsa. Eveniet aut id hic
+                <p style="width: 100%;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, facere
+                    ipsa. Eveniet aut id hic
                     totam tempore repellat repellendus! Velit, deserunt eveniet sequi dignissimos officia, consequuntur
                     maiores ratione suscipit, recusandae aliquam mollitia illo eos repellat blanditiis laudantium. Quia,
                     quam? Impedit iusto praesentium exercitationem nesciunt aspernatur fuga, eveniet repellendus
@@ -177,238 +184,393 @@
 
         <div class="row TabContentS">
             <div id="text2" class="col-lg-12 col-md-12 col-sm-12 TabContent" style="min-height: max-content;">
-              <div class="row" style="padding-top: 1%;">
-                  <div class="col-lg-12 col-md-12 col-sm-12 col-12" id="TAGS">
-                    <input   type="text">
-                    <button > ADD TAGS</button>
-                  </div>
-              </div>
+                <div class="row" style="padding-top: 1%;">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-12" id="TAGS">
+                        <input type="text">
+                        <button> ADD TAGS</button><br>
+                        <p style="width: 100%;">Use spaces to separate tags. Use single quotes (') for phrases.</p>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
+
 
         <div class="row TabContentS">
             <div id="text3" class="col-lg-12 col-md-12 col-sm-12 TabContent" style="min-height: max-content;">
-               
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-12" id="REVIEW">
+                        <h3 style="width: 100%; font-size: 17px; padding-top: 2%; font-weight: bold;">Write Your Own
+                            Review</h3>
+                        <p>How do you rate this product?</p>
+                        <table>
+                            <tr>
+                                <td class="firstTDs"></td>
+                                <td class="firstTDs"><span style="font-weight: bold;"> 1*</span></td>
+                                <td class="firstTDs"><span style="font-weight: bold;"> 2*</span></td>
+                                <td class="firstTDs"><span style="font-weight: bold;"> 3*</span></td>
+                                <td class="firstTDs"><span style="font-weight: bold;"> 4*</span></td>
+                                <td class="firstTDs"><span style="font-weight: bold;"> 5*</span></td>
+                            </tr>
+                            <tr>
+                                <td class="firstTDs">price</td>
+                                <td class="firstTDs"><input type="radio" name="nihat"></td>
+                                <td class="firstTDs"><input type="radio" name="nihat"></td>
+                                <td class="firstTDs"><input type="radio" name="nihat"></td>
+                                <td class="firstTDs"><input type="radio" name="nihat"></td>
+                                <td class="firstTDs"><input type="radio" name="nihat"></td>
+                            </tr>
+                            <tr>
+                                <td class="firstTDs">Value</td>
+                                <td class="firstTDs"><input type="radio" name="nihat"></td>
+                                <td class="firstTDs"><input type="radio" name="nihat"></td>
+                                <td class="firstTDs"><input type="radio" name="nihat"></td>
+                                <td class="firstTDs"><input type="radio" name="nihat"></td>
+                                <td class="firstTDs"><input type="radio" name="nihat"></td>
+                            </tr>
+                            <tr>
+                                <td class="firstTDs">Quality</td>
+                                <td class="firstTDs"><input type="radio" name="nihat"></td>
+                                <td class="firstTDs"><input type="radio" name="nihat"></td>
+                                <td class="firstTDs"><input type="radio" name="nihat"></td>
+                                <td class="firstTDs"><input type="radio" name="nihat"></td>
+                                <td class="firstTDs"><input type="radio" name="nihat"></td>
+                            </tr>
+                        </table>
+                        <form action="">
+                            <div class="row form" style="padding-top: 2%;">
+                                <div class="col-lg-6 col-md-6 col-sm-6 ">
+                                    <span>Nickname</span>
+                                    <input style="width: 100%; height: 45px;" type="text">
+                                    <span>Nickname</span>
+                                    <input style="width: 100%; height: 45px;" type="text">
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-6 ">
+                                    <span>Review</span>
+                                    <input style="width: 100%;  height: 100px;" type="text">
+
+                                    <div class="row" style="padding-top: 2%;">
+                                        <div class="col-lg-12 col-md-12 col-sm-12 ">
+                                            <button class="btn btn-outline-dark rounded-0"> >SUBMIT REVIEW </button>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </form>
+                        <div class="row">
+                            <div class="col-lg-12 col-md-12 col-sm-12">
+                                <h3 style="font-size: 16px; font-weight: bold;">Customer Reviews</h3>
+                            </div>
+                        </div>
+                        <div class="row" style="padding-top: 2%;">
+                            <div class="col-lg-2 col-md-2 col-sm-2"
+                                style="border-right: 1px solid #dfdfdf; min-height: 130px;">
+                                <h3 style="font-size: 15px; font-weight: bold;">Value</h3>
+                                <h3 style="font-size: 15px; font-weight: bold;">Quality</h3>
+                                <h3 style="font-size: 15px; font-weight: bold;">Price</h3>
+                            </div>
+                            <div class="col-lg-10 col-md-10 col-sm-10" style=" min-height: 130px;">
+                                <h3 style="font-size: 15px; font-weight: 700;">Excellent</h3>
+                                <span style="font-size: 85%;font-weight: normal;color: #999999;">review by leslie
+                                    prichard on 1/3/2014</span>
+                                <p
+                                    style="font-size: px;font-family: 'Poppins', sans-serif;font-weight: 500;border-bottom: 1px solid #dfdfdf;padding-bottom: 23px;">
+                                    I have purchased shirts from Minimalism a few times and am never disappointed. The
+                                    quality is excellent and the shipping is amazing. It seems like it's at your front
+                                    door the minute you get off your pc. I have received my purchases within two days -
+                                    amazing.</p>
+                            </div>
+                        </div>
+
+
+                        <div class="row" style="padding-top: 2%;">
+                            <div class="col-lg-2 col-md-2 col-sm-2"
+                                style="border-right: 1px solid #eaeaea; min-height: 130px;">
+                                <h3 style="font-size: 15px; font-weight: bold;">Value</h3>
+                                <h3 style="font-size: 15px; font-weight: bold;">Quality</h3>
+                                <h3 style="font-size: 15px; font-weight: bold;">Price</h3>
+                            </div>
+                            <div class="col-lg-10 col-md-10 col-sm-10" style=" min-height: 130px;">
+                                <h3 style="font-size: 15px; font-weight: 700;">Excellent</h3>
+                                <span style="font-size: 85%;font-weight: normal;color: #999999;">review by leslie
+                                    prichard on 1/3/2014</span>
+                                <p
+                                    style="font-size: px;font-family: 'Poppins', sans-serif;font-weight: 500;border-bottom: 1px solid #dfdfdf; padding-bottom: 23px;">
+                                    I have purchased shirts from Minimalism a few times and am never disappointed. The
+                                    quality is excellent and the shipping is amazing. It seems like it's at your front
+                                    door the minute you get off your pc. I have received my purchases within two days -
+                                    amazing.</p>
+                            </div>
+                        </div>
+
+                        <div class="row" style="padding-top: 2%;">
+                            <div class="col-lg-2 col-md-2 col-sm-2"
+                                style="border-right: 1px solid #eaeaea; min-height: 130px;">
+                                <h3 style="font-size: 15px; font-weight: bold;">Value</h3>
+                                <h3 style="font-size: 15px; font-weight: bold;">Quality</h3>
+                                <h3 style="font-size: 15px; font-weight: bold;">Price</h3>
+                            </div>
+                            <div class="col-lg-10 col-md-10 col-sm-10" style="min-height: 130px;">
+                                <h3 style="font-size: 15px; font-weight: 700;">Excellent</h3>
+                                <span style="font-size: 85%;font-weight: normal;color: #999999;">review by leslie
+                                    prichard on 1/3/2014</span>
+                                <p
+                                    style="font-size: px;font-family: 'Poppins', sans-serif;font-weight: 500;padding-bottom: 23px;">
+                                    I have purchased shirts from Minimalism a few times and am never disappointed. The
+                                    quality is excellent and the shipping is amazing. It seems like it's at your front
+                                    door the minute you get off your pc. I have received my purchases within two days -
+                                    amazing.</p>
+
+                                <div class="row">
+                                    <div class="col-lg-12 col-md-12 col-sm-12">
+                                        <button class="btn btn-outline-dark rounded-0">VIEW ALL</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
 
         <div class="row TabContentS">
             <div id="text4" class="col-lg-12 col-md-12 col-sm-12 TabContent" style="min-height: max-content;">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia totam sint excepturi adipisci magni ex
-                    fugiat necessitatibus deleniti enim distinctio? Culpa beatae consectetur explicabo vero officiis
-                    ullam, veritatis ut rerum.</p>
+                <p><b>Lorem Ipsum is simply</b> dummy text of the printing and typesetting industry. Lorem Ipsum has
+                    been the
+                    industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
+                    and scrambled it to make a type specimen book. It has survived not only five centuries, but also the
+                    leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s
+                    with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
+                    publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
             </div>
         </div>
 
         <div class="row TabContentS">
             <div id="text5" class="col-lg-12 col-md-12 col-sm-12 TabContent" style="min-height: max-content;">
-                <img style="width: 50%;height: 300px;" src="table1.jpg" alt="">
+                <p><b>Comfortable</b> preshrunk shirts. Highest Quality Printing. 6.1 oz. 100% preshrunk heavyweight
+                    cotton Shoulder-to-shoulder taping Double-needle sleeves and bottom hem Lorem Ipsumis simply dummy
+                    text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy
+                    text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a
+                    type specimen book. It has survived not only five centuries, but also the leap into electronic
+                    typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of
+                    Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software
+                    like Aldus PageMaker including versions of Lorem Ipsum.</p>
             </div>
         </div>
 
-        <div class="row">
+        <div class="row" style="padding-top: 3%;">
             <div class="col-lg-12 col-md-12 col-sm-12">
-                <h2 style="border-bottom: 3px solid #ebebeb;font-size: 18px;font-weight: 600;font-family: 'Montserrat', sans-serif; ">RELATED PRODUCTS</h2>
+                <h2
+                    style="border-bottom: 3px solid #ebebeb;font-size: 18px;font-weight: 600;font-family: 'Montserrat', sans-serif; ">
+                    RELATED PRODUCTS</h2>
             </div>
         </div>
 
         <div id="slideproducts" class="row" style="padding-top: 2%;">
             <div class="col-lg-12 col-md-12 col-sm-12" style=" min-height: max-content">
-              <div class="row slider2">
-  
-                <div class="col-lg-12 col-md-12 col-sm-12" style="padding: 15px;padding-top: 0px;">
-                  <img style=" width: 100%; border: 1px solid #eeeeee;" src="phoneredmi.jpg" alt="">
-                  <p style="text-align: center;"><b>Product Title Here</b><br><i class="far fa-star"></i><i
-                      class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i
-                      class="far fa-star"></i><br><span class="dollar">$400.00</span></p>
-                </div>
-  
-                <div class="col-lg-12 col-md-12 col-sm-12" style="padding: 15;padding-top: 0px;">
-                  <img style=" width: 100%; border: 1px solid #eeeeee;" src="mavi ventilator.jpg" alt="">
-                  <p style="text-align: center;"><b>Product Title Here</b><br><i class="far fa-star"></i><i
-                      class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i
-                      class="far fa-star"></i><br><span class="dollar">$400.00</span></p>
-                </div>
-  
-                <div class="col-lg-12 col-md-12 col-sm-12" style="padding: 15;padding-top: 0px;">
-                  <img style=" width: 100%; border: 1px solid #eeeeee;" src="camerabig.jpg" alt="">
-                  <p style="text-align: center;"><b>Product Title Here</b><br><i class="far fa-star"></i><i
-                      class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i
-                      class="far fa-star"></i><br><span class="dollar">$400.00</span></p>
-                </div>
-  
-                <div class="col-lg-12 col-md-12 col-sm-12" style="padding: 15px;padding-top: 0px;">
-                  <img style=" width: 100%; border: 1px solid #eeeeee;" src="headphone2.jpg" alt="">
-                  <p style="text-align: center;"><b>Product Title Here</b><br><i class="far fa-star"></i><i
-                      class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i
-                      class="far fa-star"></i><br><span class="dollar">$400.00</span></p>
-                </div>
-  
-                <div class="col-lg-12 col-md-12 col-sm-12" style="padding: 15px;padding-top: 0px;">
-                  <img style=" width: 100%; border: 1px solid #eeeeee;" src="phone2.jpg" alt="">
-                  <p style="text-align: center;"><b>Product Title Here</b><br><i class="far fa-star"></i><i
-                      class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i
-                      class="far fa-star"></i><br><span class="dollar">$400.00</span></p>
-                </div>
-              </div>
-            </div>
-          </div>
-          
+                <div class="row slider2">
 
-          <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12" style="padding: 15px;padding-top: 0px;">
+                        <img style=" width: 100%; border: 1px solid #eeeeee;" src="phoneredmi.jpg" alt="">
+                        <p style="text-align: center;"><b>Product Title Here</b><br><i class="far fa-star"></i><i
+                                class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i
+                                class="far fa-star"></i><br><span class="dollar">$400.00</span></p>
+                    </div>
+
+                    <div class="col-lg-12 col-md-12 col-sm-12" style="padding: 15;padding-top: 0px;">
+                        <img style=" width: 100%; border: 1px solid #eeeeee;" src="mavi ventilator.jpg" alt="">
+                        <p style="text-align: center;"><b>Product Title Here</b><br><i class="far fa-star"></i><i
+                                class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i
+                                class="far fa-star"></i><br><span class="dollar">$400.00</span></p>
+                    </div>
+
+                    <div class="col-lg-12 col-md-12 col-sm-12" style="padding: 15;padding-top: 0px;">
+                        <img style=" width: 100%; border: 1px solid #eeeeee;" src="camerabig.jpg" alt="">
+                        <p style="text-align: center;"><b>Product Title Here</b><br><i class="far fa-star"></i><i
+                                class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i
+                                class="far fa-star"></i><br><span class="dollar">$400.00</span></p>
+                    </div>
+
+                    <div class="col-lg-12 col-md-12 col-sm-12" style="padding: 15px;padding-top: 0px;">
+                        <img style=" width: 100%; border: 1px solid #eeeeee;" src="headphone2.jpg" alt="">
+                        <p style="text-align: center;"><b>Product Title Here</b><br><i class="far fa-star"></i><i
+                                class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i
+                                class="far fa-star"></i><br><span class="dollar">$400.00</span></p>
+                    </div>
+
+                    <div class="col-lg-12 col-md-12 col-sm-12" style="padding: 15px;padding-top: 0px;">
+                        <img style=" width: 100%; border: 1px solid #eeeeee;" src="phone2.jpg" alt="">
+                        <p style="text-align: center;"><b>Product Title Here</b><br><i class="far fa-star"></i><i
+                                class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i
+                                class="far fa-star"></i><br><span class="dollar">$400.00</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="row">
             <div class="col-lg-12 col-md-12 col-sm-12">
-                <h2 style="border-bottom: 3px solid #ebebeb;font-size: 18px;font-weight: 700;font-family: 'Montserrat', sans-serif; ">UPSELL PRODUCTS</h2>
+                <h2
+                    style="border-bottom: 3px solid #ebebeb;font-size: 18px;font-weight: 700;font-family: 'Montserrat', sans-serif; ">
+                    UPSELL PRODUCTS</h2>
             </div>
         </div>
 
         <div id="slideproducts" class="row" style="padding-top: 2%;">
             <div class="col-lg-12 col-md-12 col-sm-12" style=" min-height: max-content">
-              <div class="row slider2">
-  
-                <div class="col-lg-12 col-md-12 col-sm-12" style="padding: 15px;padding-top: 0px;">
-                  <img style=" width: 100%; border: 1px solid #eeeeee;" src="utu.jpg" alt="">
-                  <p style="text-align: center;"><b>Product Title Here</b><br><i class="far fa-star"></i><i
-                      class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i
-                      class="far fa-star"></i><br><span class="dollar">$400.00</span></p>
+                <div class="row slider2">
+
+                    <div class="col-lg-12 col-md-12 col-sm-12" style="padding: 15px;padding-top: 0px;">
+                        <img style=" width: 100%; border: 1px solid #eeeeee;" src="utu.jpg" alt="">
+                        <p style="text-align: center;"><b>Product Title Here</b><br><i class="far fa-star"></i><i
+                                class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i
+                                class="far fa-star"></i><br><span class="dollar">$400.00</span></p>
+                    </div>
+
+                    <div class="col-lg-12 col-md-12 col-sm-12" style="padding: 15;padding-top: 0px;">
+                        <img style=" width: 100%; border: 1px solid #eeeeee;" src="mavi ventilator.jpg" alt="">
+                        <p style="text-align: center;"><b>Product Title Here</b><br><i class="far fa-star"></i><i
+                                class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i
+                                class="far fa-star"></i><br><span class="dollar">$400.00</span></p>
+                    </div>
+
+                    <div class="col-lg-12 col-md-12 col-sm-12" style="padding: 15;padding-top: 0px;">
+                        <img style=" width: 100%; border: 1px solid #eeeeee;" src="camerabig.jpg" alt="">
+                        <p style="text-align: center;"><b>Product Title Here</b><br><i class="far fa-star"></i><i
+                                class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i
+                                class="far fa-star"></i><br><span class="dollar">$400.00</span></p>
+                    </div>
+
+                    <div class="col-lg-12 col-md-12 col-sm-12" style="padding: 15px;padding-top: 0px;">
+                        <img style=" width: 100%; border: 1px solid #eeeeee;" src="headphone2.jpg" alt="">
+                        <p style="text-align: center;"><b>Product Title Here</b><br><i class="far fa-star"></i><i
+                                class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i
+                                class="far fa-star"></i><br><span class="dollar">$400.00</span></p>
+                    </div>
+
+                    <div class="col-lg-12 col-md-12 col-sm-12" style="padding: 15px;padding-top: 0px;">
+                        <img style=" width: 100%; border: 1px solid #eeeeee;" src="phone2.jpg" alt="">
+                        <p style="text-align: center;"><b>Product Title Here</b><br><i class="far fa-star"></i><i
+                                class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i
+                                class="far fa-star"></i><br><span class="dollar">$400.00</span></p>
+                    </div>
                 </div>
-  
-                <div class="col-lg-12 col-md-12 col-sm-12" style="padding: 15;padding-top: 0px;">
-                  <img style=" width: 100%; border: 1px solid #eeeeee;" src="mavi ventilator.jpg" alt="">
-                  <p style="text-align: center;"><b>Product Title Here</b><br><i class="far fa-star"></i><i
-                      class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i
-                      class="far fa-star"></i><br><span class="dollar">$400.00</span></p>
-                </div>
-  
-                <div class="col-lg-12 col-md-12 col-sm-12" style="padding: 15;padding-top: 0px;">
-                  <img style=" width: 100%; border: 1px solid #eeeeee;" src="camerabig.jpg" alt="">
-                  <p style="text-align: center;"><b>Product Title Here</b><br><i class="far fa-star"></i><i
-                      class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i
-                      class="far fa-star"></i><br><span class="dollar">$400.00</span></p>
-                </div>
-  
-                <div class="col-lg-12 col-md-12 col-sm-12" style="padding: 15px;padding-top: 0px;">
-                  <img style=" width: 100%; border: 1px solid #eeeeee;" src="headphone2.jpg" alt="">
-                  <p style="text-align: center;"><b>Product Title Here</b><br><i class="far fa-star"></i><i
-                      class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i
-                      class="far fa-star"></i><br><span class="dollar">$400.00</span></p>
-                </div>
-  
-                <div class="col-lg-12 col-md-12 col-sm-12" style="padding: 15px;padding-top: 0px;">
-                  <img style=" width: 100%; border: 1px solid #eeeeee;" src="phone2.jpg" alt="">
-                  <p style="text-align: center;"><b>Product Title Here</b><br><i class="far fa-star"></i><i
-                      class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i
-                      class="far fa-star"></i><br><span class="dollar">$400.00</span></p>
-                </div>
-              </div>
             </div>
-          </div>
-    </div>
-
-
-
-  <div id="Footer" class="container-fluid">
-    <div class="row">
-      <div class="col-lg-3 col-md-3 col-sm-3 footerDivs" style="color: white;">
-        <h4>USEFUL LINKS</h4>
-        <ul>
-          <li><a href=""> > Product Recall</a></li>
-          <li><a href=""> > Gift Vouchers</a></li>
-          <li><a href=""> > Returns & Exchange</a></li>
-          <li><a href=""> > Shipping Options</a></li>
-          <li><a href=""> > Help & FAQs</a></li>
-          <li><a href=""> > Order history</a></li>
-        </ul>
-      </div>
-      <div class="col-lg-3 col-md-3 col-sm-3 footerDivs" style="color: white;">
-        <h4>SERVICE</h4>
-        <ul>
-          <li><a href=""> > Account</a></li>
-          <li><a href=""> > Wishlist</a></li>
-          <li><a href=""> > Shopping Cart</a></li>
-          <li><a href=""> > Return Policy</a></li>
-          <li><a href=""> > Special</a></li>
-          <li><a href=""> > Lookbook</a></li>
-        </ul>
-      </div>
-      <div class="col-lg-2 col-md-3 col-sm-3 footerDivs" style="color: white;">
-        <h4>INFORMATION</h4>
-        <ul>
-          <li class="sonLi"><a href=""> > Sites Map</a></li>
-          <li class="sonLi"><a href=""> > News</a></li>
-          <li class="sonLi"><a href=""> > Trends</a></li>
-          <li class="sonLi"><a href=""> > About Us</a></li>
-          <li class="sonLi"><a href=""> > Contact Us</a></li>
-          <li class="sonLi"><a href=""> > My Orders</a></li>
-        </ul>
-      </div>
-      <div class="col-lg-4 col-md-3 col-sm-3 footerDivs" style="color: white;">
-        <h4>SUBSCRIBE TO OUR NEWS</h4>
-        <div class="row" style="padding-left: 4%;">
-          <div>
-            <p style="font-size: 14px;color: #666; ">Subscribe to be the first to know about Sales, Events, and
-              Exclusive Offers!.
-            </p>
-          </div>
-          <div class="row" style="width: 100%;">
-            <div class="col-lg-12 col-md-12 col-sm-12 col-12" style="display: flex;justify-content: space-between;">
-
-              <input style="width: 69%; height: 40px;" placeholder="Enter Your Email" type="text">
-              <button class="btn btn-secondary rounded-0" style="background: #00acc1;"><span
-                  style="font-size: 13px;font-weight: 500;padding:6px;"> SUBSCRIBE</span></button>
-            </div>
-            <div class="row" style="padding-left: 4%; padding-top: 7%; color: #00acc1;">
-              <div id="iconDIv" class="col-lg-12 col-md-12 col-sm-12 col-12">
-                <h4>FOLLOW US</h4>
-                <a style="color: #3c5b9a;padding-right: 6px;" href=""> <i class="fab fa-facebook-square"></i></a>
-                <a style="color: #e33828;" href=""> <i class="fab fa-google-plus-square"></i> </a>
-                <a style="color: #359bec;" href=""> <i class="fab fa-twitter-square"></i> </a>
-                <a style="color: #067ba5;" href=""> <i class="fab fa-linkedin"></i> </a>
-                <a style="color: #fd9f13;" href=""> <i class="fas fa-rss-square"></i> </a>
-                <a style="color: #3e729a;" href=""> <i class="fab fa-instagram-square"></i> </a>
-              </div>
-            </div>
-          </div>
         </div>
-      </div>
-
-
-
     </div>
 
-    <div class="row" style="padding-top: 2%;">
-      <div class="col-lg-12 col-md-12 col-sm-12 col-12"
-        style="border-bottom: 1px solid #666; border-top: 1px solid #666;;width: 100%;min-height: max-content;">
+
+
+    <div id="Footer" class="container-fluid">
         <div class="row">
-          <div class="col-lg-12 col-md-12 col-sm-12 col-12">
-            <p style="color: white; text-align: center; padding-top: 2%; font-size: 40px;"><b>SHOP</b>MART</p>
-          </div>
-          <div class="col-lg-12 col-md-12 col-sm-12 col-12">
-            <p style="color: white; text-align: center;  ">
-              <span style="color: #666; padding:10px"><i class="fas fa-map-marker-alt"></i> Company, 12/34 - West 21st
-                Street, New York, USA</span>
-              <span style="color: #666; padding:10px"><i class="fas fa-phone-alt"></i>+ (800) 0123 456 789 </span>
-              <span style="color: #666; padding:10px"><i class="fas fa-envelope-open"></i>support@Templates.com</span>
-            </p>
-          </div>
+            <div class="col-lg-3 col-md-3 col-sm-3 footerDivs" style="color: white;">
+                <h4>USEFUL LINKS</h4>
+                <ul>
+                    <li><a href=""> > Product Recall</a></li>
+                    <li><a href=""> > Gift Vouchers</a></li>
+                    <li><a href=""> > Returns & Exchange</a></li>
+                    <li><a href=""> > Shipping Options</a></li>
+                    <li><a href=""> > Help & FAQs</a></li>
+                    <li><a href=""> > Order history</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-3 footerDivs" style="color: white;">
+                <h4>SERVICE</h4>
+                <ul>
+                    <li><a href=""> > Account</a></li>
+                    <li><a href=""> > Wishlist</a></li>
+                    <li><a href=""> > Shopping Cart</a></li>
+                    <li><a href=""> > Return Policy</a></li>
+                    <li><a href=""> > Special</a></li>
+                    <li><a href=""> > Lookbook</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-3 footerDivs" style="color: white;">
+                <h4>INFORMATION</h4>
+                <ul>
+                    <li class="sonLi"><a href=""> > Sites Map</a></li>
+                    <li class="sonLi"><a href=""> > News</a></li>
+                    <li class="sonLi"><a href=""> > Trends</a></li>
+                    <li class="sonLi"><a href=""> > About Us</a></li>
+                    <li class="sonLi"><a href=""> > Contact Us</a></li>
+                    <li class="sonLi"><a href=""> > My Orders</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-4 col-md-3 col-sm-3 footerDivs" style="color: white;">
+                <h4>SUBSCRIBE TO OUR NEWS</h4>
+                <div class="row" style="padding-left: 4%;">
+                    <div>
+                        <p style="font-size: 14px;color: #666; ">Subscribe to be the first to know about Sales, Events,
+                            and
+                            Exclusive Offers!.
+                        </p>
+                    </div>
+                    <div class="row" style="width: 100%;">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-12"
+                            style="display: flex;justify-content: space-between;">
+
+                            <input style="width: 69%; height: 40px;" placeholder="Enter Your Email" type="text">
+                            <button class="btn btn-secondary rounded-0" style="background: #00acc1;"><span
+                                    style="font-size: 13px;font-weight: 500;padding:6px;"> SUBSCRIBE</span></button>
+                        </div>
+                        <div class="row" style="padding-left: 4%; padding-top: 7%; color: #00acc1;">
+                            <div id="iconDIv" class="col-lg-12 col-md-12 col-sm-12 col-12">
+                                <h4>FOLLOW US</h4>
+                                <a style="color: #3c5b9a;padding-right: 6px;" href=""> <i
+                                        class="fab fa-facebook-square"></i></a>
+                                <a style="color: #e33828;" href=""> <i class="fab fa-google-plus-square"></i> </a>
+                                <a style="color: #359bec;" href=""> <i class="fab fa-twitter-square"></i> </a>
+                                <a style="color: #067ba5;" href=""> <i class="fab fa-linkedin"></i> </a>
+                                <a style="color: #fd9f13;" href=""> <i class="fas fa-rss-square"></i> </a>
+                                <a style="color: #3e729a;" href=""> <i class="fab fa-instagram-square"></i> </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
 
         </div>
 
-      </div>
+        <div class="row" style="padding-top: 2%;">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-12"
+                style="border-bottom: 1px solid #666; border-top: 1px solid #666;;width: 100%;min-height: max-content;">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                        <p style="color: white; text-align: center; padding-top: 2%; font-size: 40px;"><b>SHOP</b>MART
+                        </p>
+                    </div>
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                        <p style="color: white; text-align: center;  ">
+                            <span style="color: #666; padding:10px"><i class="fas fa-map-marker-alt"></i> Company, 12/34
+                                - West 21st
+                                Street, New York, USA</span>
+                            <span style="color: #666; padding:10px"><i class="fas fa-phone-alt"></i>+ (800) 0123 456 789
+                            </span>
+                            <span style="color: #666; padding:10px"><i
+                                    class="fas fa-envelope-open"></i>support@Templates.com</span>
+                        </p>
+                    </div>
 
-      <div class="">
-        <div>
-          <p style="color: #666;">Copyright © 2017<a href="">ShopMart</a>. All Rights Reserved.</p>
-        </div>
-        <!-- <div  class="col-lg-10">
+                </div>
+
+            </div>
+
+            <div class="">
+                <div>
+                    <p style="color: #666;">Copyright © 2017<a href="">ShopMart</a>. All Rights Reserved.</p>
+                </div>
+                <!-- <div  class="col-lg-10">
           <a style="font-size: 20px;" href=""><img style="width: 30%; height: 35px;" src="paypal-credit-cards.jpg" alt=""></a>
           <a style="font-size: 20px;" href=""><img style="width: 30%; height: 35px;" src="paypal-credit-cards.jpg" alt=""></a>
           <a style="font-size: 20px;" href=""><img style="width: 30%; height: 35px;" src="paypal-credit-cards.jpg" alt=""></a>
           <a style="font-size: 20px;" href=""><img style="width: 30%; height: 35px;" src="paypal-credit-cards.jpg" alt=""></a>
         </div> -->
-      </div>
+            </div>
+        </div>
     </div>
-  </div>
 
 
 
