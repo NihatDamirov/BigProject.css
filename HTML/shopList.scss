@@ -1,0 +1,154 @@
+#HeadDiv{
+    background-image: url("slide-img2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100px;
+    margin-top: -60px;
+}
+#NAV{
+    a{
+        color: white;
+    }
+}
+.TextDiv{
+    padding: 2%;
+}
+.FirstTextDiv{
+   
+    span{
+        color: #666;
+        font-size: 13px;
+        font-weight: normal;
+    }
+}
+.mainDiv{
+
+    .SMARTPHONES{
+        h2{
+            font-size: 22px;
+            font-weight: bold;
+            font-family: inherit;
+        }
+    }
+
+    .SpanSelectSelet{
+        button{
+            background-color: white;
+            border: 1px solid #dddddd;
+            font-size: 20px;
+        }
+
+        span{
+            color: #333;
+            font-family: 'Poppins', sans-serif;
+            font-size: 18px;
+            font-weight: 400;
+            
+        }
+
+        select{
+            width: 65%;
+        }
+    }
+
+ol{
+        list-style: none;
+        padding: 14px;
+
+        h4{
+            font-size: 18px;
+            font-family: inherit;
+            font-weight: 500;
+        }
+        .kicikspan{
+            color: #999;
+            font-size: 14px;
+            font-family: 'Poppins', sans-serif;
+        }
+        p{
+            font-size: 17px;
+            font-family: 'Poppins', sans-serif;
+            font-weight: 400;
+        }
+        .btn{
+            background-color: white;
+            .BtnSpan{
+                font-size: 10px;
+                font-weight: 600;
+                color: #666;
+                font-family: inherit;
+            }
+
+        }
+        .btn:hover{
+            background-color: #00acc1;
+            .BtnSpan{
+                color: white;
+            }
+        }
+
+        li{
+            padding-top: 3%;
+            
+        }
+    }
+
+    .ShopBy1{
+        margin-top: 4%;
+        margin: auto;
+        
+        h4{
+        margin: 10px;
+        font-size: 15px;
+        font-weight: 600;
+        font-family: 'Poppins', sans-serif;
+
+    }
+    }
+    .ShopBy2{
+        button{
+            background-color: white;
+            border: 1px solid #eeeeee ;
+        }
+        button:hover{
+            background-color: #00acc1;
+            color: white;
+
+        }
+        min-height: max-content;
+        margin: auto;
+        .span1{
+            margin: 10px;
+                color: #333;
+                font-weight: 600;
+                font-size: 12px;
+                font-family: 'Poppins', sans-serif;
+            
+        }
+        ul{
+            padding-left: 27px;
+            font-size: 13px;
+        }
+
+        .rowImg{
+            padding-top: 5%;
+            border-bottom: 2px solid #eeeeee;
+            img{
+                border: 2px solid #eeeeee;
+            }
+        }
+
+        .imgDIVLittle{
+            span{
+                font-size: 13px;
+            }
+            p{
+                font-size: 15px;
+            }
+        }
+       
+    }
+
+   
+
+}
