@@ -1,0 +1,113 @@
+#HeadDiv {
+  background-image: url("slide-img2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100px;
+  margin-top: -60px;
+}
+
+#NAV a {
+  color: white;
+}
+
+#MainDiv h4 {
+  font-size: 24px;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+#MainDiv .Table td {
+  border: 1px solid #ebebeb;
+}
+
+#MainDiv .Table img {
+  width: 100%;
+  padding: 10px;
+}
+
+#MainDiv .Table h2 {
+  font-size: 30px;
+  font-weight: 600;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+#MainDiv .Table p {
+  text-align: center;
+}
+
+#MainDiv .Table .btn {
+  background-color: white;
+  border: 1px solid #efefef;
+}
+
+#MainDiv .Table .btn .BtnSpan {
+  font-size: 12px;
+  font-weight: bold;
+  color: #666;
+  font-family: inherit;
+}
+
+#MainDiv .Table .btn:hover {
+  background-color: #00acc1;
+}
+
+#MainDiv .Table .btn:hover .BtnSpan {
+  color: white;
+}
+
+#Footer {
+  background-color: black;
+  min-height: 500px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+#Footer h4 {
+  padding: 0 0 10px;
+  padding-top: 1%;
+  margin: 0;
+  color: #00acc1;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+#Footer a {
+  color: #999;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  font-size: 13px;
+  font-weight: normal;
+  text-decoration: none;
+}
+
+#Footer ul {
+  list-style: none;
+  padding-left: 0%;
+}
+
+#Footer li {
+  padding-top: 4%;
+}
+
+#Footer .sonLi {
+  padding-top: 6%;
+}
+
+#Footer .footerDivs {
+  padding-top: 2%;
+}
+
+#Footer a:hover {
+  color: #00acc1;
+}
+
+#Footer #iconDIv a {
+  font-size: 40px;
+  padding-right: 5px;
+}
+
+#Footer #iconDIv i:hover {
+  color: #c2c3c4;
+}
+/*# sourceMappingURL=comparePage.css.map */

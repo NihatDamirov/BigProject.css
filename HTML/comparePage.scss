@@ -1,0 +1,115 @@
+#HeadDiv{
+    background-image: url("slide-img2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100px;
+    margin-top: -60px;
+}
+#NAV{
+    a{
+        color: white;
+    }
+}
+
+#MainDiv{
+    h4{
+        font-size: 24px;
+        font-weight: bold;
+        font-family: sans-serif;
+        
+    }
+
+    .Table{
+        td{
+            border: 1px solid #ebebeb;
+        }
+        img{
+            width: 100%;
+            padding: 10px;
+
+        }
+        h2{
+            font-size: 30px;
+            font-weight: 600;
+            text-align: center;
+            font-family: 'Poppins', sans-serif;
+        }
+        p{
+            text-align: center;
+        }
+        .btn{
+            background-color: white;
+            border: 1px solid #efefef;
+           
+            .BtnSpan{
+                font-size: 12px;
+                font-weight: bold;
+                color: #666;
+                font-family: inherit;
+                
+            }
+
+        }
+        .btn:hover{
+            background-color: #00acc1;
+            .BtnSpan{
+                color: white;
+            }
+        }
+    }
+}
+
+#Footer{
+    background-color: black;
+    min-height: 500px;
+    margin-left: 0px;
+    margin-right: 0px;
+
+    h4{
+      padding: 0 0 10px;
+      padding-top: 1%;
+      margin: 0;
+      color: #00acc1;
+      font-size: 15px;
+      font-weight: 600;
+      
+    }
+
+    a{
+      color: #999;
+      padding-top: 7px;
+      padding-bottom: 7px;
+      font-size: 13px;
+      font-weight: normal;
+      text-decoration: none;
+}
+ul{
+  list-style: none;
+  padding-left: 0%;
+}
+ li{
+   padding-top: 4%;
+ }
+ .sonLi{
+  padding-top: 6%;
+ }
+ 
+ .footerDivs{
+   padding-top: 2%;
+ }
+
+ a:hover{
+  color: #00acc1;
+ }
+
+ #iconDIv{
+   a{
+   font-size: 40px;
+   padding-right: 5px;
+   }
+   i:hover{
+     color: #c2c3c4;;
+   }
+ }
+    
+    }

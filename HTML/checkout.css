@@ -1,0 +1,259 @@
+#HeadDiv {
+  background-image: url("slide-img2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100px;
+  margin-top: -60px;
+}
+
+#NAV a {
+  color: white;
+}
+
+.MainDiv .colText span {
+  color: #666;
+  font-size: 14px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.MainDiv .colText2 span {
+  font-size: 25px;
+  font-weight: bold;
+  font-family: 'Poppins', sans-serif;
+}
+
+.MainDiv .colText3 {
+  border-bottom: 2px solid #eeeeee;
+}
+
+.MainDiv .colText3 span {
+  font-size: 17px;
+  font-weight: bold;
+  font-family: 'Poppins', sans-serif;
+}
+
+.MainDiv .GuestorRegister h4 {
+  font-size: 18px;
+  font-family: inherit;
+  font-weight: 500;
+}
+
+.MainDiv .GuestorRegister .inputspan {
+  font-size: 14px;
+  font-weight: bold;
+  font-family: 'Poppins', sans-serif;
+}
+
+.MainDiv .Login input {
+  width: 100%;
+  border: 1px solid #eaeaea;
+  padding: 6px;
+}
+
+.MainDiv .Login label {
+  padding-top: 3%;
+  font-size: 14px;
+  font-weight: bold;
+  font-family: 'Poppins', sans-serif;
+}
+
+.MainDiv .Login a {
+  padding-top: 2%;
+  color: #00acc1;
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.MainDiv .ShippingMethod {
+  padding-top: 1%;
+}
+
+.MainDiv .ShippingMethod p {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  color: #222;
+  font-weight: 200;
+}
+
+.MainDiv .InputUlDiv ul {
+  padding-left: 2px;
+}
+
+.MainDiv .InputUlDiv ul input {
+  width: 100%;
+  border: 1px solid #eaeaea;
+  padding: 6px;
+}
+
+.MainDiv .InputUlDiv ul select {
+  width: 100%;
+  border: 1px solid #eaeaea;
+  padding: 6px;
+}
+
+.MainDiv .InputUlDiv ul label {
+  padding-top: 3%;
+  font-size: 14px;
+  font-weight: bold;
+  font-family: 'Poppins', sans-serif;
+}
+
+.MainDiv .btn {
+  background-color: white;
+  border: 1px solid #efefef;
+}
+
+.MainDiv .btn .BtnSpan {
+  font-size: 12px;
+  font-weight: bold;
+  color: #666;
+  font-family: inherit;
+}
+
+.MainDiv .btn:hover {
+  background-color: #00acc1;
+}
+
+.MainDiv .btn:hover .BtnSpan {
+  color: white;
+}
+
+.MainDiv #works .titleTD {
+  padding: 1%;
+}
+
+.MainDiv #works .titleTD span {
+  font-weight: 600;
+  font-size: 13px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.MainDiv #works .PrdctTitle {
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+}
+
+.MainDiv #works .Description {
+  width: 30%;
+  padding: 10px;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.MainDiv #works .Avail span {
+  background-color: black;
+  color: white;
+  margin-left: 37%;
+  padding: 7px;
+}
+
+.MainDiv #works .UnitPrice span {
+  margin-left: 65%;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  color: #222;
+  font-weight: bold;
+}
+
+.MainDiv #works .Total {
+  width: 13%;
+}
+
+.MainDiv #works .Total span {
+  margin-left: 65%;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  color: #222;
+  font-weight: bold;
+}
+
+.MainDiv #works .Trash {
+  width: 5%;
+}
+
+.MainDiv #works .Trash span {
+  margin-left: 40%;
+  color: #bcbcbc;
+}
+
+.MainDiv #works .QTY {
+  width: 7%;
+}
+
+.MainDiv .LittleSpanTd {
+  font-size: 85%;
+  font-weight: normal;
+  color: #999999;
+  font-family: 'Poppins', sans-serif;
+}
+
+.MainDiv td {
+  border: 1px solid #eaeaea;
+}
+
+.MainDiv .imgTD {
+  width: 10%;
+}
+
+.MainDiv .imgTD img {
+  width: 80%;
+}
+
+#Footer {
+  background-color: black;
+  min-height: 500px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+#Footer h4 {
+  padding: 0 0 10px;
+  padding-top: 1%;
+  margin: 0;
+  color: #00acc1;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+#Footer a {
+  color: #999;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  font-size: 13px;
+  font-weight: normal;
+  text-decoration: none;
+}
+
+#Footer ul {
+  list-style: none;
+  padding-left: 0%;
+}
+
+#Footer li {
+  padding-top: 4%;
+}
+
+#Footer .sonLi {
+  padding-top: 6%;
+}
+
+#Footer .footerDivs {
+  padding-top: 2%;
+}
+
+#Footer a:hover {
+  color: #00acc1;
+}
+
+#Footer #iconDIv a {
+  font-size: 40px;
+  padding-right: 5px;
+}
+
+#Footer #iconDIv i:hover {
+  color: #00acc1;
+}
+/*# sourceMappingURL=checkout.css.map */

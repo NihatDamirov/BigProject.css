@@ -108,6 +108,29 @@
   margin: auto;
 }
 
+.mainDiv .ShopBy2 .wiyfc {
+  color: #000;
+  font-size: 15px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.mainDiv .ShopBy2 .compareUl {
+  padding-top: 10px;
+}
+
+.mainDiv .ShopBy2 .compareUl .compareLI {
+  padding-top: 9px;
+}
+
+.mainDiv .ShopBy2 .compareUl .compareLI a {
+  font-size: 15px;
+  font-weight: 300;
+  color: #222;
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+  padding: 2px;
+}
+
 .mainDiv .ShopBy2 button {
   background-color: white;
   border: 1px solid #eeeeee;
@@ -146,5 +169,60 @@
 
 .mainDiv .ShopBy2 .imgDIVLittle p {
   font-size: 15px;
+}
+
+#Footer {
+  background-color: black;
+  min-height: 500px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+#Footer h4 {
+  padding: 0 0 10px;
+  padding-top: 1%;
+  margin: 0;
+  color: #00acc1;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+#Footer a {
+  color: #999;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  font-size: 13px;
+  font-weight: normal;
+  text-decoration: none;
+}
+
+#Footer ul {
+  list-style: none;
+  padding-left: 0%;
+}
+
+#Footer li {
+  padding-top: 4%;
+}
+
+#Footer .sonLi {
+  padding-top: 6%;
+}
+
+#Footer .footerDivs {
+  padding-top: 2%;
+}
+
+#Footer a:hover {
+  color: #00acc1;
+}
+
+#Footer #iconDIv a {
+  font-size: 40px;
+  padding-right: 5px;
+}
+
+#Footer #iconDIv i:hover {
+  color: #00acc1;
 }
 /*# sourceMappingURL=shopList.css.map */

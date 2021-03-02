@@ -93,6 +93,10 @@ ol{
         }
     }
 
+    
+
+
+
     .ShopBy1{
         margin-top: 4%;
         margin: auto;
@@ -106,6 +110,26 @@ ol{
     }
     }
     .ShopBy2{
+        .wiyfc{
+            color: #000;
+            font-size: 15px;
+            font-family: 'Poppins', sans-serif;
+        }
+        .compareUl{
+            padding-top: 10px;
+        .compareLI{
+            padding-top: 9px;
+            a{
+                font-size: 15px;
+                font-weight: 300;
+                color: #222;
+                text-decoration: none;
+                font-family: 'Poppins', sans-serif;
+                padding: 2px;
+            }
+        }
+    }
+
         button{
             background-color: white;
             border: 1px solid #eeeeee ;
@@ -152,3 +176,58 @@ ol{
    
 
 }
+
+ #Footer{
+    background-color: black;
+    min-height: 500px;
+    margin-left: 0px;
+    margin-right: 0px;
+
+    h4{
+      padding: 0 0 10px;
+      padding-top: 1%;
+      margin: 0;
+      color: #00acc1;
+      font-size: 15px;
+      font-weight: 600;
+      
+    }
+
+    a{
+      color: #999;
+      padding-top: 7px;
+      padding-bottom: 7px;
+      font-size: 13px;
+      font-weight: normal;
+      text-decoration: none;
+}
+ul{
+  list-style: none;
+  padding-left: 0%;
+}
+ li{
+   padding-top: 4%;
+ }
+ .sonLi{
+  padding-top: 6%;
+ }
+ 
+ .footerDivs{
+   padding-top: 2%;
+ }
+
+ a:hover{
+  color: #00acc1;
+ }
+
+ #iconDIv{
+   a{
+   font-size: 40px;
+   padding-right: 5px;
+   }
+   i:hover{
+     color: #00acc1;;
+   }
+ }
+    
+    }
