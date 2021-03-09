@@ -1,0 +1,196 @@
+.HEAD{
+    .ulustnav{
+        display: flex;
+        justify-content: flex-end;
+        ul{
+        display: flex;
+        padding-top: 2%;
+
+
+        li{
+            list-style: none;
+            padding-left: 10px;
+        }
+        }
+        
+    }
+
+   
+    
+    background-image: url("slide-img2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    span{
+        color: white;
+        padding-left: 10px;
+        font-size: 13px;
+        font-weight: 300;
+        font-family: 'Poppins', sans-serif;
+        color: #fff;
+
+    
+    }
+    a{
+        font-family: 'Poppins', sans-serif;
+        font-weight: 400;
+        font-size: 15px;
+        color: #fff;
+    }
+    a:hover{
+        text-decoration: none;
+        color: #fff;
+    }
+   
+
+
+
+.dropbtn {
+  background-color: transparent;
+  color: white;
+  padding: 0px;
+  font-size: 14px;
+  border: none;
+  cursor: pointer;
+  padding-left: 10px;
+}
+
+
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 120px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 5px 10px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: transparent;
+}
+
+@media only screen and (max-width: 732px) {
+    #ustDIv{
+   
+    justify-content: space-between;
+    
+    }
+    
+  }
+
+@media only screen and (max-width: 732px) {
+    .ulustnav{
+       display: none;
+    }
+    #ustDIv{
+        justify-content: space-between;
+        min-width: 100%;
+        margin: 0px !important;
+    }
+  }
+
+@media only screen and (max-width: 976px) {
+    #Ilkspan{
+        display: none;
+    }
+  }
+
+    #NAV{
+      
+      .NAVDIV{
+
+        display: flex;
+        justify-content: space-between;
+
+        #LogoA{
+          font-size: 40px;
+          color: #fff;
+          font-family: sans-serif;
+
+        }
+        #UlDiv{
+
+          .CurrencyDiv1{
+            span{
+              color: #fff;
+              font-size: 15px;
+              font-family: 'Montserrat', sans-serif;
+              font-weight: 500;
+            }
+          }
+
+        ul{
+          list-style: none;
+          display: flex;
+          li{
+            padding-top: 25px;
+          }
+        }
+
+      }
+
+      #IconDiv{
+        padding-top: 20px;
+        display: flex;
+        a{
+          border: 1px solid #515864;
+          font-size: 20px;
+          padding: 10px;
+        }
+      }
+      }
+    }
+
+
+    @media only screen and (max-width: 1201px) {
+      #firstPart{
+          display: none;
+      }
+      #secondPart{
+        display: block !important;
+    }
+
+    }
+    @media only screen and (max-width: 775px) {
+     
+      #thirdpart{
+        display: block !important;
+    }
+    #secondPart{
+      display: none !important;
+    }
+
+    }
+
+    .sidebar{
+      padding-left: 0px;
+      position: fixed;
+      width: 200px;
+      height: 100%;
+      background-color: red;
+      ul{
+        list-style: none;
+        li{
+          
+          span{
+            color: #fff ;
+          }
+        }
+      }
+    }
+       
+}
