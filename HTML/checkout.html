@@ -15,47 +15,244 @@
 </head>
 
 <body>
-    <header>
-        <nav id="NAV" class="navbar navbar-expand-lg">
-            <a class="navbar-brand" href="#">Navbar</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+  <header class="HEAD container-fluid">
 
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Dropdown
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#">Action</a>
-                            <a class="dropdown-item" href="#">Another action</a>
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="#">Something else here</a>
-                        </div>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Dropdown
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#">Action</a>
-                            <a class="dropdown-item" href="#">Another action</a>
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="#">Something else here</a>
-                        </div>
-                    </li>
+    <div class="row" style="border-bottom: 1px solid #686c74; margin: 0px;">
+        <div id="ustDIv" class="col-lg-4 col-md-4 col-sm-4 col-4 d-flex" style="margin: 10px; position: relative; ">
 
-                </ul>
-                
+            <div style="display: flex;">
+                <span id="Ilkspan" style="padding-top: 4px;">Default welcome msg.</span>
+                <div class="dropdown">
+                    <button class="dropbtn"><span> French</span></button>
+                    <div class="dropdown-content">
+                        <a href="#">Link 1</a>
+                        <a href="#">Link 2</a>
+                        <a href="#">Link 3</a>
+                    </div>
+                </div>
+
             </div>
-        </nav>
-        <div id="HeadDiv" class="container-fluid"></div>
-    </header>
+
+            <div>
+
+                <div class="dropdown CurrencyDiv1">
+                    <button class="dropbtn"><span> currency $</span></button>
+                    <div class="dropdown-content">
+                        <a href="#">Link 1</a>
+                        <a href="#">Link 2</a>
+                        <a href="#">Link 3</a>
+                    </div>
+                </div>
+
+            </div>
+
+
+        </div>
+
+        <div class="col-lg-7 col-md-7 col-sm-7 col-7 ulustnav">
+            <div>
+                <ul>
+                    <li><a href="">My Account</a></li>
+                    <li><a href="">Wishlist</a></li>
+                    <li><a href="">Checkout</a></li>
+                    <li><a href="">Compare</a></li>
+                    <li><a href="">Log in</a></li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+
+    <nav id="NAV" class="col-lg-12 col-md-12 col-sm-12 col-12 navbar navbar-expand-lg ">
+
+        <div class="container">
+
+            <div class="row w-100">
+                <div class="NAVDIV col-lg-12 col-md-12 col-sm-12 col-12">
+
+                    <div class="row w-100">
+
+                        <div style="display: none;" id="thirdpart" class=" col-lg-12 col-md-12 col-sm-12 col-12">
+                            <!--ThirdPart  -->
+
+                            <div class="row">
+                                <div class="col-lg-12 col-md-12 col-sm-12 col-12" style="text-align: center;">
+                                    <a id="LogoA" class="navbar-brand" href="#"><b>Shop</b>Mart</a>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-lg-9 col-md-9 col-sm-9 col-9">
+                                    <a href="#" onclick="togglesidebar()" style="color: black;"> <i
+                                            style="font-size: 40px;padding-top: 10px;"
+                                            class="btn toggle-btn fas fa-align-justify"></i></a>
+                                </div>
+
+                                <div style="display: flex; justify-content: flex-end;" id="IconDiv"
+                                    class="col-lg-3 col-md-3 col-sm-3 col-3">
+                                    <div><a href=""><i class="fas fa-search"></i></a> </div>
+                                    <div><a href=""><i class="fas fa-shopping-cart"></i></a></div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div style="display: none;" id="secondPart" class=" col-lg-12 col-md-12 col-sm-12 col-12">
+                            <!--secondPart  -->
+
+                            <div class="row">
+                                <div class="col-lg-1 col-md-1 col-sm-1 col-1">
+                                    <a href="#" onclick="togglesidebar()" style="color: black;"> <i
+                                            style="font-size: 40px;padding-top: 10px;"
+                                            class="btn toggle-btn fas fa-align-justify"></i></a>
+                                </div>
+
+                                <div class="col-lg-10 col-md-10 col-sm-12 col-12" style="text-align: center;">
+                                    <a id="LogoA" class="navbar-brand" href="#"><b>Shop</b>Mart</a>
+                                </div>
+
+                                <div id="IconDiv" class="col-lg-1 col-md-1 col-sm-1 col-1">
+                                    <div><a href=""><i class="fas fa-search"></i></a> </div>
+                                    <div><a href=""><i class="fas fa-shopping-cart"></i></a></div>
+
+
+                                </div>
+
+                            </div>
+                        </div>
+
+
+                        <div  id="firstPart" class=" col-lg-12 col-md-12 col-sm-12 col-12">
+                            <!--firstPart  -->
+                            <div class="row">
+
+
+                                <div class="col-lg-2 col-md-2 col-sm-2 col-2">
+                                    <a id="LogoA" class="navbar-brand" href="#"><b>Shop</b>Mart</a>
+                                </div>
+
+
+
+                                <div id="UlDiv" class="col-lg-9 col-md-9 col-sm-9 col-9">
+
+                                    <ul>
+                                        <li>
+                                            <div class="dropdown CurrencyDiv1">
+                                                <button class="dropbtn"><span>HOME</span></button>
+                                                <div class="dropdown-content">
+                                                    <a href="#">Link 1</a>
+                                                    <a href="#">Link 2</a>
+                                                    <a href="#">Link 3</a>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="dropdown CurrencyDiv1">
+                                                <button class="dropbtn"><span>PAGES</span></button>
+                                                <div class="dropdown-content">
+                                                    <a href="#">Link 1</a>
+                                                    <a href="#">Link 2</a>
+                                                    <a href="#">Link 3</a>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="dropdown CurrencyDiv1">
+                                                <button class="dropbtn"><span>CAMERA</span></button>
+                                                <div class="dropdown-content">
+                                                    <a href="#">Link 1</a>
+                                                    <a href="#">Link 2</a>
+                                                    <a href="#">Link 3</a>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="dropdown CurrencyDiv1">
+                                                <button class="dropbtn"><span>LAPTOPS</span></button>
+                                                <div class="dropdown-content">
+                                                    <a href="#">Link 1</a>
+                                                    <a href="#">Link 2</a>
+                                                    <a href="#">Link 3</a>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="dropdown CurrencyDiv1">
+                                                <button class="dropbtn"><span>TVS & AUDIO</span></button>
+                                                <div class="dropdown-content">
+                                                    <a href="#">Link 1</a>
+                                                    <a href="#">Link 2</a>
+                                                    <a href="#">Link 3</a>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="dropdown CurrencyDiv1">
+                                                <button class="dropbtn"><span>CELL PHONE</span></button>
+                                                <div class="dropdown-content">
+                                                    <a href="#">Link 1</a>
+                                                    <a href="#">Link 2</a>
+                                                    <a href="#">Link 3</a>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="dropdown CurrencyDiv1">
+                                                <button class="dropbtn"><span>ACCESORIES</span></button>
+                                                <div class="dropdown-content">
+                                                    <a href="#">Link 1</a>
+                                                    <a href="#">Link 2</a>
+                                                    <a href="#">Link 3</a>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+
+
+                                <div id="IconDiv" class="col-lg-1 col-md-1 col-sm-1 col-1">
+                                    <div><a href=""><i class="fas fa-search"></i></a> </div>
+                                    <div><a href=""><i class="fas fa-shopping-cart"></i></a></div>
+
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+
+
+
+
+</header>
+
+<div id="sidebar">
+    <ul>
+        <li style="display: flex; justify-content: space-between;">
+            <a href="#">Home</a>
+
+            <a class="btn" onclick="togglesidebar()" href="">X</a>
+        </li>
+        <li><a href="">Pages</a></li>
+        <li><a href="">Smartphones</a></li>
+        <li><a href="">Camera & Photos</a></li>
+        <li><a href="">Laptop bags</a></li>
+        <li><a href="">Apple Store</a></li>
+        <li><a href="">Computers</a></li>
+        <li><a href="">My Account</a></li>
+        <li><a href="">Wishlist</a></li>
+        <li><a href="">Checkout</a></li>
+        <li><a href="">Blog</a></li>
+        <li><a href="">Login</a></li>
+    </ul>
+</div>
+
+
     
     <div class="container-fluid MainDiv">
         <div class="row" style="padding-top: 1%;">
@@ -607,6 +804,13 @@
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script>
+      function togglesidebar() {
+
+document.getElementById("sidebar").classList.toggle('active');
+document.getElementById("sidebar").style.transition = "0.5s"
+}
+    </script>
 </body>
 
 </html>

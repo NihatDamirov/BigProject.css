@@ -15,7 +15,9 @@
 </head>
 
 <body>
+
     <header class="HEAD container-fluid">
+
         <div class="row" style="border-bottom: 1px solid #686c74; margin: 0px;">
             <div id="ustDIv" class="col-lg-4 col-md-4 col-sm-4 col-4 d-flex" style="margin: 10px; position: relative; ">
 
@@ -68,10 +70,11 @@
 
                 <div class="row w-100">
                     <div class="NAVDIV col-lg-12 col-md-12 col-sm-12 col-12">
-                       
-                         <div class="row w-100">  
-<!--                             
-                            <div style="display: none;" id="thirdpart"  class=" col-lg-12 col-md-12 col-sm-12 col-12"><!--ThirdPart 
+
+                        <div class="row w-100">
+
+                            <div style="display: none;" id="thirdpart" class=" col-lg-12 col-md-12 col-sm-12 col-12">
+                                <!--ThirdPart  -->
 
                                 <div class="row">
                                     <div class="col-lg-12 col-md-12 col-sm-12 col-12" style="text-align: center;">
@@ -80,43 +83,50 @@
                                 </div>
 
                                 <div class="row">
-                                    <div class="col-lg-9 col-md-9 col-sm-9 col-9" >
-                                        <a href="" style="color: black;"> <i style="font-size: 40px;padding-top: 10px;" class="fas fa-align-justify"></i></a>
-                                     </div> 
+                                    <div class="col-lg-9 col-md-9 col-sm-9 col-9">
+                                        <a href="#" onclick="togglesidebar()" style="color: black;"> <i
+                                                style="font-size: 40px;padding-top: 10px;"
+                                                class="btn toggle-btn fas fa-align-justify"></i></a>
+                                    </div>
 
-                                    <div style="display: flex; justify-content: flex-end;" id="IconDiv" class="col-lg-3 col-md-3 col-sm-3 col-3" >
+                                    <div style="display: flex; justify-content: flex-end;" id="IconDiv"
+                                        class="col-lg-3 col-md-3 col-sm-3 col-3">
                                         <div><a href=""><i class="fas fa-search"></i></a> </div>
                                         <div><a href=""><i class="fas fa-shopping-cart"></i></a></div>
                                     </div>
                                 </div>
-                            </div> 
+                            </div>
 
 
-                            <div style="display: none;" id="secondPart"  class=" col-lg-12 col-md-12 col-sm-12 col-12"><!--secondPart 
+                            <div style="display: none;" id="secondPart" class=" col-lg-12 col-md-12 col-sm-12 col-12">
+                                <!--secondPart  -->
 
                                 <div class="row">
-                                    <div class="col-lg-1 col-md-1 col-sm-1 col-1" >
-                                       <a href="" style="color: black;"> <i style="font-size: 40px;padding-top: 10px;" class="fas fa-align-justify"></i></a>
-                                    </div> 
-                                    
+                                    <div class="col-lg-1 col-md-1 col-sm-1 col-1">
+                                        <a href="#" onclick="togglesidebar()" style="color: black;"> <i
+                                                style="font-size: 40px;padding-top: 10px;"
+                                                class="btn toggle-btn fas fa-align-justify"></i></a>
+                                    </div>
+
                                     <div class="col-lg-10 col-md-10 col-sm-12 col-12" style="text-align: center;">
                                         <a id="LogoA" class="navbar-brand" href="#"><b>Shop</b>Mart</a>
                                     </div>
 
-                                    <div id="IconDiv" class="col-lg-1 col-md-1 col-sm-1 col-1" >
+                                    <div id="IconDiv" class="col-lg-1 col-md-1 col-sm-1 col-1">
                                         <div><a href=""><i class="fas fa-search"></i></a> </div>
                                         <div><a href=""><i class="fas fa-shopping-cart"></i></a></div>
 
 
                                     </div>
-                                    
+
                                 </div>
-                            </div> 
+                            </div>
 
 
-                            <div id="firstPart" class=" col-lg-12 col-md-12 col-sm-12 col-12"> <!--firstPart 
-                                <div class="row"> 
-                                    
+                            <div  id="firstPart" class=" col-lg-12 col-md-12 col-sm-12 col-12">
+                                <!--firstPart  -->
+                                <div class="row">
+
 
                                     <div class="col-lg-2 col-md-2 col-sm-2 col-2">
                                         <a id="LogoA" class="navbar-brand" href="#"><b>Shop</b>Mart</a>
@@ -208,37 +218,40 @@
 
                                     </div>
                                 </div>
-                            </div>   -->
-
-                           
+                            </div>
                         </div>
-                       
                     </div>
-
                 </div>
             </div>
-
-
-
-
-
-
         </nav>
-        <div class="sidebar">
-            <!-- <div class="toglge-btn">
-                <a href="" style="color: black;"> <i style="font-size: 40px;padding-top: 10px;" class="fas fa-align-justify"></i></a>
-            </div> -->
-           <ul>
-               <li><span> lorem</span></li>
-               <li><span> lorem</span></li>
-               <li><span> lorem</span></li>
-               <li><span> lorem</span></li>
-               <li><span> lorem</span></li>
-           </ul>
-        </div>
-       
+
+
+
+
+
 
     </header>
+
+    <div id="sidebar">
+        <ul>
+            <li style="display: flex; justify-content: space-between;">
+                <a href="#">Home</a>
+
+                <a class="btn" onclick="togglesidebar()" href="">X</a>
+            </li>
+            <li><a href="">Pages</a></li>
+            <li><a href="">Smartphones</a></li>
+            <li><a href="">Camera & Photos</a></li>
+            <li><a href="">Laptop bags</a></li>
+            <li><a href="">Apple Store</a></li>
+            <li><a href="">Computers</a></li>
+            <li><a href="">My Account</a></li>
+            <li><a href="">Wishlist</a></li>
+            <li><a href="">Checkout</a></li>
+            <li><a href="">Blog</a></li>
+            <li><a href="">Login</a></li>
+        </ul>
+    </div>
 
 
 
@@ -250,6 +263,10 @@
 
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
         integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
         crossorigin="anonymous"></script>
@@ -257,6 +274,18 @@
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+
+    <script>
+
+        function togglesidebar() {
+
+            document.getElementById("sidebar").classList.toggle('active');
+            document.getElementById("sidebar").style.transition = "0.5s"
+        }
+
+
+
+    </script>
 </body>
 
 </html>
